@@ -189,6 +189,7 @@ img{
 
 .contact-container {
     display: flex;
+    flex-wrap: wrap;
     margin: 20px 0 0 0;
     gap: 30px;
     justify-content: center; 
@@ -209,4 +210,83 @@ img{
 .contact-container a:hover {
     background-color: burlywood; 
     color: black; 
+}
+
+ /* responsif ketika dibawah 820px */
+ @media (max-width: 820px) {
+    /* Navbar */
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .anchor-navbar {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .anchor-navbar a {
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* About */
+    .aboutcss {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 20px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Education */
+    .education-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .education-container a {
+        width: 100%;
+    }
+
+    /* Experience */
+    .exp-container {
+        grid-template-columns: 1fr;
+    }
+
+    .exp-block {
+        text-align: center;
+    }
+
+    /* Skills */
+    .skills-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .skills-category {
+        width: 100%;
+    }
+
+    .skills-block {
+        padding: 10px;
+        justify-content: center;
+    }
+
+    /* Contact Person */
+    .contact-container {
+        padding: 0 50px;
+        flex-direction: column;
+    }
+
+    .contact-block {
+        text-align: center;
+    }
 }
