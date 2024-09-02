@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans', sans-serif;
+    background-color: #e0f2f1;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 60px;
+    height: 60px;
+    background-color: #333333;
+}
+
+.name-logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+
+.name-logo span {   
+    color: burlywood ;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.anchor-navbar {
+    display: flex;
+    gap: 10px;
+}
+
+.anchor-navbar a {
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: #444444;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.anchor-navbar a:hover {
+    background-color: burlywood;
+    color: black;
+}
+ 
+/* About */
+.aboutcss{
+    padding: 0 60px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+}
+
+.text {
+    color: #333333;
+    align-items: center;
+}
+
+.text h3 {
+    font-weight: bold;
+}
+
+.text h2{
+    font-weight: 50px;  
+}
+
+img{
+    width: 350px;
+    border-radius: 60%;
+}
+
+/* Education */
+.educationcss {
+    padding: 0 60px;
+    margin: 80px 0;
+    text-align: center;
+}
+
+.educationcss h2 {
+    margin: 25px auto;
+}
+
+.education-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.education-container a {
+    border: 2px solid #252525;
+    border-radius: 20px;
+    padding: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.education-container a:hover {
+    background-color: burlywood; 
+    color: white; 
+}
+
+/* Experience */
+.experiencecss {
+    padding: 0 60px;
+    margin: 80px 0;
+    text-align: center;
+}
+
+.experiencecss h2 {
+    margin: 25px auto;
+}
+
+.exp-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+.exp-block {
+    border: 2px solid #252525;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.exp-block h4 {
+    background-color: #252525;
+    color: white;
+    border-radius: 60px;
+}
+
+/* Skills */
+.skillscss {
+    padding: 0 60px;
+    margin: 80px 0;
+    text-align: center;
+}
+
+.skillscss h2 {
+    margin: 25px auto;
+}
+.skills-container {
+    display: flex;
+    gap: 20px; 
+}
+
+.skills-category {
+    width: 50%;
+    border: 2px solid #252525;
+    padding: 20px 80px;
+    border-radius: 15px; 
+    background-color: #e0f2f1; 
+}
+
+.skills-block {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 40px;
+    border: 2px solid #252525;
+    border-radius: 10px; 
+    background-color: white; 
+}
+
+.icon {
+    width: 32px;  
+    height: 32px; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+    border-radius: 0px;
+}
+
+/* Contact Person */
+.contactcss {
+    background-color: #333333; 
+    color: white;
+    padding: 30px 0; 
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    margin: 20px 0 0 0;
+    gap: 30px;
+    justify-content: center; 
+}
+
+.contact-container a {
+    background-color: #444444; 
+    border-radius: 15px; 
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-container a:hover {
+    background-color: burlywood; 
+    color: black; 
+}
